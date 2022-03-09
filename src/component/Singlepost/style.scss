@@ -1,0 +1,29 @@
+
+.singleWrap {
+    flex: 1 0 32%;
+    background: #43b9ea;
+    box-shadow: 0px 0px 8px #43b9ea;
+    border-radius: 4px;
+    display: flex;
+    /* grid-gap: 10px; */
+    flex-direction: column;
+    h2 {
+        text-align: left;
+        padding: 0 15px;
+    }
+    p {
+        text-align: justify;
+        padding: 0 15px;
+    }
+    button {
+        background: #fcdd53;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 1px 1px 5px #f8a154;
+        font-size: 10px;
+        float: right;
+        margin: 0 15px 15px 0;
+    }
+}
+
